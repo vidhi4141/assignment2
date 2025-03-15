@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffeceb;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Back Button */
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* Search Bar */
+        .search-bar {
+            background-color: #ffdddd;
+            font-size: 20px;
+            font-weight: bold;
+            displ… flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        /* Project Container */
+        .project-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Individual Project Box */
+        .project {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        /* Project Images */
+        .project img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Project Titles */
+        .project-title {
+            background-color: #ffbbbb;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Back Button -->
+    <div class="back-button">⬅</div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">search bar</div>
+
+    <!-- Project Container -->
+    <div class="project-container">
+        
+        <!-- First Project -->
+        <div class="project">
+            <img src="https://i.imgur.com/b898Ybg.jpeg" alt="LED Mask">
+            <div class="project-title">Become Anyone 2.0 - Full Face LED Mask</div>
+        </div>
+
+        <!-- Second Project -->
+        <div class="project">
+            <img src="https://i.imgur.com/0nF6Qyd.jpeg" alt="Wonder Box">
+            <div class="project-title">The Instructobotronical Wonder Box!</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
