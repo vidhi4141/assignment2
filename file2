@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructables Clone</title>
+    <style>
+        /* Header Styling */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #FFF0F0; /* Updated Background Color */
+            padding: 10px 20px;
+        }
+
+        /* Logo Section */
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img {
+            width: 150px; /* Adjust size */
+            height: auto;
+            display: block; /* Ensure visibility */
+        }
+
+        /* Navigation */
+        .nav-links {
+            display: flex; /* Fix alignment */
+            align-items: center;
+            gap: 20px; /* Add spacing */
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Background Image Styling */
+        .background {
+            background-image: url('https://i.ibb.co/vpW3Nk2/47aaf27abe48c8cfb39f79b45eda8923.png');
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 500px; /* Adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="https://i.ibb.co/WLK9vHH/images-1.png" alt="Logo">
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="#">sign up</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+
+    <!-- Background Image Section -->
+    <div class="background"></div>
+
+</body>
+</html>
