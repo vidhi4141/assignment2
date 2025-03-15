@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        /* Background Image */
+        body {
+            background-image: url('https://i.ibb.co/QzMspC6/images.jpg'); /* Your Image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Container Styling (Sign-Up Box) */
+        .container {
+            text-align: center;
+            background: #FFD2D2;  /* Light Pink Color */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        /* Back Button */
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            text-decoration: none;
+            font-size: 30px;
+            background: white;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        /* Form Text (Black Color) */
+        h1 {
+            color: black;  /* Sign-Up Text Color */
+            font-size: 24px;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            background: white; /* Input Field Background */
+            color: black; /* Input Text Color */
+        }
+
+        /* Login Button */
+        button {
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="#" class="back-btn">⟲</a>
+        <h1>SIGN UP</h1>
+        <form>
+            <input type="text" placeholder="USER NAME" required>
+            <input type="password" placeholder="PASSWORD" required>
+            <button type="submit">LOG IN</button>
+        </form>
+    </div>
+</body>
+</html>
