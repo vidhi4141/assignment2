@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Project Steps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce8e6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .step {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .image-container img {
+            width: 45%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #555;
+            text-align: justify;
+            padding: 0 10px;
+        }
+
+        /* Black Back Button */
+        .back-button {
+            position: fixed;
+            top: 15px;
+            left: 15px;
+            font-size: 24px;
+            text-decoration: none;
+            background: black;
+            color: white;
+            padding: 12px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            font-weight: bold;
+        }
+
+        .search-container {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .search-bar {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Black Back Button -->
+    <a href="#" class="back-button">⬅</a>
+
+    <!-- Step 1 -->
+    <section class="step">
+        <h2>Step 1: 3D Modeling</h2>
+        <div class="image-container">
+            <img src="https://i.imgur.com/WIiT9uR.png" alt="Model 1">
+            <img src="https://i.imgur.com/bURbcnB.png" alt="Model 2">
+            <img src="https://i.imgur.com/OPMeusb.png" alt="Model 3">
+            <img src="https://i.imgur.com/gf8bAhQ.png" alt="Model 4">
+        </div>
+        <p>I downloaded an image of the robot and imported it into Autodesk Maya to make a reference plane. 
+           From there, I used simple shapes to block in the form. I used cubes for the head, body, and arms; 
+           and cylinders for the legs, buttons, and eyes. Adding subdivisions and smoothing the cubes, I began 
+           refining the shapes to more closely match the logo. Finally, I manipulated individual edges and 
+           edge loops to add details and personality. I exported the elements as separate STL files for 
+           preparation for printing. While I created the antennae and fingers, I knew that I would use wire 
+           for those, so I omitted them in the exported files.</p>
+    </section>
+
+    <!-- Step 2 -->
+    <section class="step">
+        <h2>Step 2: 3D Printing</h2>
+        <div class="image-container">
+            <img src="https://i.imgur.com/vUtKT8i.jpeg" alt="Printing 1">
+            <img src="https://i.imgur.com/toWmbi1.jpeg" alt="Printing 2">
+        </div>
+        <p>I imported the STL files from Maya into Cura, my go-to slicing software. After scaling and 
+           arranging optimally, I exported print-ready GCODE files to use with my Creality Ender 3 Pro. 
+           The head was the only part that needed supports, as it's…
