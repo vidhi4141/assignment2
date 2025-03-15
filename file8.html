@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduino Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5ebe8;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            text-align: left;
+        }
+
+        .back-icon {
+            position: absolute;
+            left: 10px;
+            top: 10px; /* Back icon ko adjust kiya */
+            font-size: 28px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .content {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #e88b8b;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #d16c6c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="#" class="back-icon">⬅</a>
+
+        <img src="https://i.imgur.com/ey7R4DP.jpeg" alt="Arduino Project">
+
+        <div class="content">
+            <p>After some experimentation, this is what made it into the final project:</p>
+            <ul>
+                <li>3D printer filament (glow in the dark is fun!)</li>
+                <li>Arduino Nano or equivalent</li>
+                <li>Arduino compatible audio amplifier (HW-301 or similar)</li>
+                <li>Piezo contact mic (I had 35mm on hand)</li>
+                <li>1 × 1/4" mono audio output jack</li>
+                <li>2 × resistors 10k ohm (for combining the audio outputs)</li>
+                <li>3 × potentiometers 100k (to control pitch, rate, and modulation)</li>
+                <li>3 × pushbuttons (to stop, start, and hold synth output)</li>
+                <li>2 × LEDs (so the eyes pulse with the audio)</li>
+                <li>Solderless breadboard, wire, solder, heat shrink tubing</li>
+            </ul>
+
+            <p><strong>Software used:</strong></p>
+            <ul>
+                <li>Autodesk Maya</li>
+                <li>UltiMaker Cura</li>
+                <li>Arduino IDE + Mozzi Audio Library</li>
+                <li>Fritzing (for the circuit diagram)</li>
+            </ul>
+
+            <a href="#" class="button">Go To Stage</a>
+        </div>
+    </div>
+
+</body>
+</html>
